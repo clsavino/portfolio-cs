@@ -19,6 +19,7 @@ h3,
 h4,
 h5,
 h6,
+a,
 label {
   margin: 0 0 10px;
   text-transform: uppercase;
@@ -208,7 +209,7 @@ h2.intro-text {
 }
 .contact-section {
   width: 100%;
-  height: 500px;
+  height: 400px;
   padding: 50px 0;
   color: black;
   background-color: #ffffff;
@@ -224,37 +225,19 @@ h2.intro-text {
   display: block;
 }
 #contactBlock {
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 1px #000000 solid;
+  /*background-color: rgba(255, 255, 255, 0.9);
+  border: 1px #000000 solid;*/
   margin-top: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 2em;
 }
 footer {
   padding: 20px 0;
-}
-footerp {
-  margin: 0;
-}
-.footerOne {
-  font-size: 1.2em;
-  line-height: 1.3;
-  margin: 0;
-}
-.footerTitle {
-  font-weight: 600;
-}
-.footerCopy {
-  font-size: .65em;
-}
-.smallFooter {
   font-size: .95em;
-  padding-bottom: 15px;
-  font-weight: 300;
+  font-weight: 500;
   font-style: italic;
 }
-
-
 p {
   margin: 0 0 1.563em;
   font-size: 1.25em;
@@ -403,11 +386,12 @@ a:focus {
 }
 .resume-section {
   width: 100%;
-  height: 500px;
+  height: 400px;
   padding: 50px 0;
-  color: #222222;
+  margin-bottom:
+  color: white;
   background: url('../img/puzzleLG.jpg') no-repeat center center scroll;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -420,11 +404,20 @@ a:focus {
   display: block;
 }
 #resumeBlock {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px #000000 solid;
+  background-color: rgba(255, 255, 255, 0.6);
   margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.h2-resume {
+  color: #222222;
+  font-size: 70px;
+  font-weight: bold;
+}
+.a-resume {
+  color: #222222;
+  font-size: 50px;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
   p {
@@ -433,19 +426,19 @@ a:focus {
     line-height: 1.6;
   }
   .content-section {
-    padding-top: 150px;
+    padding-top: 50px;
   }
   .resume-section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
   #resumeBlock {
-    margin-top: 0;
+    margin-top: 100px;
   }
   .contact-section {
     padding: 100px 0;
   }
   .intro {
-    height: 700px;
+    height: 500px;
     padding: 0;
   }
   .intro .intro-body .brand-heading {
@@ -486,15 +479,4 @@ a:focus {
   .navbar-custom.top-nav-collapseli.active a:hover {
     color: #252424;
   }
-
-/*
-h1label,
-h2label,
-h3label,
-h4label,
-h5label,
-h6label,
-labellabel {
-  font-size: 1.25em;
 }
-/
