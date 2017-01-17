@@ -1,0 +1,500 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  color: #222222;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+* {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.intro {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url('../img/purplePuzzle.jpg') no-repeat center scroll;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.page-scroll {
+  color: white;
+}
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+  font-size: 2.25em;
+  margin-bottom: 0;
+  color: white;
+}
+.intro .intro-body .intro-text {
+  margin-bottom: 0;
+  font-size: 1em;
+  color: white;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2.intro-text {
+  color: white;
+}
+.intro .intro-body .intro-text {
+  margin-bottom: 0;
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+}
+.fa-linkedin {
+  color: white;
+}
+.fa-github {
+  color: white;
+  width: 25px;
+}
+.content-section {
+  padding-top: 100px;
+}
+.about-top {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+#iconsListTop {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+}
+.btn-social-icon {
+  padding: 0;
+  font-size: 1.1em;
+}
+.btn-social-icon:hover {
+  outline: none;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-social-icon:hoveri.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+.btn-social-icon:focus {
+  outline: none;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-social-iconi.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+#circle-about {
+  margin: 10px;
+}
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 5px 16px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  font-size: 40px;
+  color: #ffffff;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.btn-circle:hover {
+  outline: none;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+.btn-circle:focus {
+  outline: none;
+  color: #777777;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+@-webkit-keyframes pulse {
+  0 {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0 {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.skills-icons {
+  font-size: 5em;
+  margin: .5em;
+}
+.skills-container {
+  padding: 1em 0;
+}
+.skills-div {
+  padding: .75em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 4em;
+}
+.contact-section {
+  width: 100%;
+  height: 500px;
+  padding: 50px 0;
+  color: black;
+  background-color: #ffffff;
+  background: url('../img/whitePuzzle.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.contact-section.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#contactBlock {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px #000000 solid;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+footer {
+  padding: 20px 0;
+}
+footerp {
+  margin: 0;
+}
+.footerOne {
+  font-size: 1.2em;
+  line-height: 1.3;
+  margin: 0;
+}
+.footerTitle {
+  font-weight: 600;
+}
+.footerCopy {
+  font-size: .65em;
+}
+.smallFooter {
+  font-size: .95em;
+  padding-bottom: 15px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+p {
+  margin: 0 0 1.563em;
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+a {
+  color: #252424;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: #a5a3a3;
+  text-decoration: none;
+}
+a:focus {
+  color: #595656;
+}
+.light {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+}
+.navbar-custom.navbar-toggle {
+  color: #222222;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: .75em;
+}
+.navbar-custom.navbar-toggle:focus {
+  outline: none;
+}
+.navbar-custom.navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom.navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom.navbar-brand:focus {
+  outline: none;
+}
+.navbar-customa {
+  color: #222222;
+}
+.navbar-customlia {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.navbar-customlia:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+.navbar-customlia:focus {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-customlia:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-customlia:activea {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-customlia:activea:hover {
+  color: #ffffff;
+}
+.btn {
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
+}
+.btn-default {
+  border: 1px solid rgba(0, 51, 102, 0.6);
+  color: rgba(0, 51, 102, 0.6);
+  background-color: transparent;
+}
+.btn-default:hover {
+  border: 1px solid rgba(0, 51, 102, 0.6);
+  outline: none;
+  color: #ffffff;
+  background-color: rgba(0, 51, 102, 0.6);
+}
+.btn-default:focus {
+  border: 1px solid rgba(0, 51, 102, 0.6);
+  outline: none;
+  color: #ffffff;
+  background-color: rgba(0, 51, 102, 0.6);
+}
+.portfolio-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.thumbnail {
+  align-content: center;
+  margin: 1em;
+}
+.thumbnail img {
+  margin: 0 auto;
+  max-width: 300px;
+  max-height: 200px;
+}
+.thumbnail .caption {
+  display: none;
+}
+.thumbnail:hover {
+  background-color: rgba(187, 217, 194, 0.5);
+  border: 1px solid #81dfe9;
+}
+.thumbnail:hover img {
+  display: none;
+}
+.thumbnail:hover .caption {
+  display: block;
+  padding: 2em 1em 1em 1em;
+  width: 300px;
+  height: 200px;
+  font-size: .75em;
+  color: #000000;
+}
+.thumbnail:hover .caption p {
+  margin: 0 0 10px;
+}
+.thumbnail:hover .caption .btn {
+  border: 1px solid #ffd194;
+  background-color: #ffffff;
+}
+.thumbnail:hover .caption .btn i {
+  color: rgba(0, 0, 0, 0.8);
+}
+.thumbnail:hover .caption .network-name {
+  color: rgba(0, 0, 0, 0.8);
+}
+.resume-section {
+  width: 100%;
+  height: 500px;
+  padding: 50px 0;
+  color: #222222;
+  background: url('../img/puzzleLG.jpg') no-repeat center center scroll;
+  background-color: #ffffff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.resume-section.container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#resumeBlock {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px #000000 solid;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 1.25em;
+    line-height: 1.6;
+  }
+  .content-section {
+    padding-top: 150px;
+  }
+  .resume-section {
+    padding: 150px 0;
+  }
+  #resumeBlock {
+    margin-top: 0;
+  }
+  .contact-section {
+    padding: 100px 0;
+  }
+  .intro {
+    height: 700px;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 80px;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+  footer p {
+    margin: 0;
+    line-height: 1;
+  }
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: #ffffff;
+    color: #222222;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .navbar-custom.top-nav-collapse a {
+    color: #000000;
+  }
+  .navbar-custom.top-nav-collapselia:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .navbar-custom.top-nav-collapseli.active a {
+    background-color: rgba(0, 102, 204, 0.3);
+  }
+  .navbar-custom.top-nav-collapseli.active a:hover {
+    color: #252424;
+  }
+
+/*
+h1label,
+h2label,
+h3label,
+h4label,
+h5label,
+h6label,
+labellabel {
+  font-size: 1.25em;
+}
+/
