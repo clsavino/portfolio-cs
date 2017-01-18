@@ -76,7 +76,7 @@ h2.intro-text {
   width: 25px;
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 h2.about-C{
   text-transform: capitalize;
@@ -209,6 +209,9 @@ h2.about-C{
   justify-content: space-between;
   align-items: center;
   margin: 2em 4em;
+}
+#skills-section {
+  padding-top: 50px;
 }
 .contact-section {
   width: 100%;
@@ -354,7 +357,12 @@ a:focus {
   align-content: center;
   margin: 1em;
   width: 300px;
-  height: 300px
+  height: 350px;
+  position: relative;
+  margin: 20px;
+  box-shadow:
+    0 0 0 5px hsl(0, 0%, 70%),
+    0 0 0 10px hsl(0, 0%, 80%);
 }
 .thumbnail img {
   margin: 0 auto;
@@ -427,6 +435,7 @@ a:focus {
   font-size: 50px;
   font-weight: bold;
 }
+
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -443,7 +452,7 @@ a:focus {
     margin-top: 100px;
   }
   .contact-section {
-    padding: 100px 0;
+    padding: 50px 0;
   }
   .intro {
     height: 500px;
