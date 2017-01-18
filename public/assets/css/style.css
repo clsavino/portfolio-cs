@@ -78,6 +78,9 @@ h2.intro-text {
 .content-section {
   padding-top: 100px;
 }
+h2.about-C{
+  text-transform: capitalize;
+}
 .about-top {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -225,12 +228,15 @@ h2.intro-text {
   display: block;
 }
 #contactBlock {
-  /*background-color: rgba(255, 255, 255, 0.9);
-  border: 1px #000000 solid;*/
+  background-color: rgba(255, 255, 255, 0.7);
+  /*border: 1px #000000 solid;*/
   margin-top: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 2em;
+}
+.contact-info {
+  text-transform: none;
 }
 footer {
   padding: 20px 0;
@@ -347,11 +353,13 @@ a:focus {
 .thumbnail {
   align-content: center;
   margin: 1em;
+  width: 300px;
+  height: 300px
 }
 .thumbnail img {
   margin: 0 auto;
   max-width: 300px;
-  max-height: 200px;
+  max-height: 300px;
 }
 .thumbnail .caption {
   display: none;
