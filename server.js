@@ -9,8 +9,7 @@ var app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static(__dirname + '/public'));
-//app.use(express.static(process.cwd() + '/public'));
-//makes static assets in the public folder available (style.css)
+//app.use(express.static(process.cwd() + '/public'))
 //app.use(express.static('public'));
 
 // Sets up the Express app to handle data parsing
@@ -35,7 +34,7 @@ app.get("*", function(req,res) {
 });
 */
 // Set up the server
-var PORT = process.env.PORT || 4000; // Sets an initial port.
+var PORT = process.env.PORT || 8000; // Sets an initial port.
 app.listen(PORT, function() {
   console.log('App Server is listening on port ' + PORT);
 });
