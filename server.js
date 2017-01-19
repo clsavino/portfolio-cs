@@ -8,8 +8,8 @@ var path = require('path');
 var app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
-//app.use(express.static(__dirname + '/public'));
-app.use(express.static(process.cwd() + '/public'));
+app.use(express.static(__dirname + '/public'));
+//app.use(express.static(process.cwd() + '/public'));
 //makes static assets in the public folder available (style.css)
 //app.use(express.static('public'));
 
