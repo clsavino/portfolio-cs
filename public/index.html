@@ -7,22 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Christi Savino</title>
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- style sheet -->
-    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- fontawesome -->
     <script src="https://use.fontawesome.com/0bf9ac1b8c.js"></script>
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Monteserrat" rel="stylesheet">
     <!-- dev icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!-- my puzzle favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- bootstrap cdn
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    -->
+    <!-- bootstrap cdn -->
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-gv0oNvwnqzF6ULI9TVsSmnULNb3zasNysvWwfT/s4l8k5I+g6oFz9dye0wg3rQ2Q" crossorigin="anonymous">
+    <!-- style sheet -->
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
 
   </head>
 
@@ -31,13 +29,14 @@
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
+          <!-- .navbar-main-collapse below shows links used in collapse -->
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
             Menu
             <i class="fa fa-bars"></i>
           </button>
           <a class="navbar-brand page-scroll" href="#page-top">
             <i class="fa fa-angle-double-right"></i>
-            <span class="light"></span>
+            <span class=""></span>
           </a>
         </div>
         <!-- nav links for toggling -->
@@ -48,24 +47,16 @@
               <a href="#page-top"></a>
             </li>
             <li>
-              <a class="page-scroll" href="#about">
-                <span class="light">ABOUT</span>
-              </a>
+              <a class="page-scroll" href="#about">ABOUT</a>
             </li>
             <li>
-              <a class="page-scroll" href="#resume">
-                <span class="light">RESUME</span>
-              </a>
+              <a class="page-scroll" href="#resume">RESUME</a>
             </li>
             <li>
-              <a class="page-scroll" href="#portfolio">
-                <span class="light">PORTFOLIO</span>
-              </a>
+              <a class="page-scroll" href="#portfolio">PORTFOLIO</a>
             </li>
             <li>
-              <a class="page-scroll" href="#contact">
-                <span class="light">CONTACT</span>
-              </a>
+              <a class="page-scroll" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -89,14 +80,14 @@
                 FULL STACK WEB DEVELOPER
               </h2>
               <div class="row">
-                <div class="col-md-12" id="iconListTop">
+                <div class="col-sm-12" id="iconListTop">
                   <!-- github icon -->
                   <a href="https://github.com/clsavino" class="btn btn-social-icon btn-github" target="_blank">
-                    <i class="fa fa-github fa-fw fa-2x animated"></i>
+                    <i class="fa fa-github fa-fw fa-2x"></i>
                   </a>
                   <!-- LinkedIn icon -->
                   <a href="https://www.linkedin.com/in/christisavino" class="btn btn-social-icon btn-linkedin" target="_blank">
-                    <i class="fa fa-linkedin fa-fw fa-2x animated"></i>
+                    <i class="fa fa-linkedin fa-fw fa-2x"></i>
                   </a>
                 </div>
               </div>
@@ -108,10 +99,10 @@
     <!-- ABOUT -->
     <section id="about" class="container content-section ">
       <div class="row">
-        <div class="col-sm-10 col-lg-offset-1 text-center">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
           <h2 class="about-top">All About Me</h2>
           <h2 class="about-C">Cooking - CODING - Counseling</h2>
-          <p>
+          <p class="about-p">
           <br>Three things I enjoy doing are Coding, Counseling and Cooking. What do they have in common? Puzzle solving! All three start with a problem that needs to be solved just like a puzzle. In each of these endeavors I get to solve the problem by putting together all the pieces.<br>
           <br>Currently I am a Full Stack Web Developer honing new skills. My analytical side loves the challenge of breaking a project down into pieces and putting all those pieces together to develop a full stack app.<br>
           <br>As a Software Engineer I have worked on fascinating projects. My favorite was software test for the F-16 which included an opportunity to fly in the fight simulator. I have a BS in Computer Science and a Masters degree in Biblical Counseling. I enjoy volunteering as a counselor at church and mentoring other women.<br>
@@ -138,7 +129,7 @@
         <div class="col-sm-12 ">
           <h2>Skills</h2>
         </div>
-        <div class="col-sm-6 col-sm-offset-3">
+        <div class="col-md-8 col-md-offset-2 col-sm-12">
           <div class="skills-div">
             <div class="skills-container">
               <i class="devicon-javascript-plain colored skills-icons"></i>
@@ -305,26 +296,21 @@
       <div class="contact-section">
         <div class="container">
           <div class="col-lg-6 col-lg-offset-3" id="contactBlock">
-            <h2> Contact Me </h2>
-              <!--
-                <h3 class="contact-info" >Christi@ChristiSavino.com</h3>
-                -->
-                <h3 class="contact-info" >ChristiSavino@gmail.com</h3>
-              <!--
-                <a href="mailto:christi@christisavino.com" class="btn btn-default btn-lg">
-                  <i class="fa fa-envelope-o fa-fw"></i>
-                </a>
-                -->
-                <a class="contact-link" href="https://www.linkedin.com/in/christisavino" target="_blank" class="btn btn-default btn-lg">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                </a>
+            <h2 id="contact-me"> Contact Me </h2>
+            <!--<h3 class="contact-info" >ChristiSavino@gmail.com</h3>-->
+            <a href="mailto:christi@christisavino.com" target="blank" class="contact-info">ChristiSavino@gmail.com
+            </a>
+            <br>
+            <a class="contact-link" href="https://www.linkedin.com/in/christisavino" target="_blank" class="btn btn-default btn-lg">
+              <i class="fa fa-linkedin fa-fw" id="fa-linkedin-blue"></i>
+            </a>
           </div>
         </div>
       </div>
     </section>
     <footer>
       <div class="container text-center">
-        <p class="footer-p">Copyright &copy; Christi Savino 2017</p>
+        <p class="footer-p">Christi Savino 2017</p>
       </div>
     </footer>
     <!-- jQuery -->
