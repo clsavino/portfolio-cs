@@ -165,8 +165,7 @@ p {
 }
 a:hover {
   color: #158cba;
-  text-decoration:
-  none;
+  text-decoration: none;
 }
 .navbar-custom {
   margin-bottom: 0;
@@ -267,6 +266,7 @@ a:hover {
   max-width: 315px;
   max-height: 280px;
   position: absolute;
+  z-index: 0;
   opacity: 1;
   transition: opacity .2s ease-in-out;
 }
@@ -275,33 +275,34 @@ a:hover {
   transition: opacity .2s ease-in-out;
   background-color: rgba(187, 217, 194, 0.5);
   padding: 2em 1em 1em 1em;
-  width: 325px;
+  width: 315px;
   height: 280px;
   font-size: .75em;
   color: #000000;
-}
-.thumbnail:hover {
-  border: 1px solid #81dfe9;
+  position: absolute;
+  z-index: 5;
 }
 .thumbnail:hover img {
   opacity: 0;
 }
 .thumbnail:hover .caption {
-
   opacity: 1;
 }
-.thumbnail:hover .caption p {
+.thumbnail .caption .btn i {
+  color: rgba(0, 0, 0, 0.8);
+}
+.thumbnail .caption .network-name {
+  color: rgba(0, 0, 0, 0.8);
+}
+.thumbnail .caption p {
   margin: 0 0 10px;
 }
-.thumbnail:hover .caption .btn {
+.thumbnail .caption .btn {
   border: 1px solid #ffd194;
   background-color: #ffffff;
 }
-.thumbnail:hover .caption .btn i {
-  color: rgba(0, 0, 0, 0.8);
-}
-.thumbnail:hover .caption .network-name {
-  color: rgba(0, 0, 0, 0.8);
+.thumbnail {
+  border: 1px solid #81dfe9;
 }
 .resume-section {
   width: 100%;
