@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6,a,label {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url('../img/purplePuzzle.jpg') no-repeat center scroll;
+  background: url('../img/purplePuzzleMin.jpg') no-repeat center scroll;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -122,7 +122,7 @@ h2.about-C{
   height: 400px;
   padding: 50px 0;
   background-color: #ffffff;
-  background: url('../img/whitePuzzle.jpg') no-repeat center center scroll;
+  background: url('../img/whitePuzzleMin.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -222,6 +222,12 @@ a:hover {
   color: #ffffff;
 }
 
+#angleDoubleRight:hover {
+  background-color: white;
+  color: #158cba;
+  padding: 5px;
+}
+
 .btn {
   text-transform: uppercase;
   border-radius: 0;
@@ -309,7 +315,7 @@ a:hover {
   height: 300px;
   padding: 50px 0;
   color: white;
-  background: url('../img/puzzle.jpg')  center center scroll;
+  background: url('../img/puzzleMin.jpg')  center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -396,6 +402,11 @@ a:hover {
   }
   .navbar-custom.top-nav-collapseli.active a:hover {
     color: #252424;
+  }
+  #angleDoubleRight:hover {
+  background-color: white;
+  color: #158cba;
+  padding: 5px;
   }
 }
 @media screen and (max-width: 767px) {
